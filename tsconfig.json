@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2017",
+    "jsx": "react",
+    "strict": true,
+    "baseUrl": "src",
+    "paths": {
+      "assets/*": ["assets/*"],
+      "containers": ["containers"],
+      "components": ["components"]
+    }
+  }
+}
