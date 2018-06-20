@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { AutoInput, Box } from 'components';
 import { Money } from 'containers';
+import GithubCorner from 'react-github-corner';
 
 import './App.scss';
 
@@ -40,6 +41,7 @@ export class App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <div className="app">
+        <GithubCorner href="https://github.com/sn0wle0pard/money-counter" />
         <Box>
           <h1>현재 나이는?</h1>
           <AutoInput
