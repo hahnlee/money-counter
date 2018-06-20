@@ -20,7 +20,7 @@ export class App extends React.Component<AppProps, AppState> {
     this.state = {
       currentAge: parseInt(parseResult['currentAge'] || '0'),
       targetAge: parseInt(parseResult['targetAge'] || '0'),
-      daily: parseInt(parseResult['daily'] || '0'),
+      daily: parseInt(parseResult['dailyWages'] || '0'),
     };
   }
 
