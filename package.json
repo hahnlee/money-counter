@@ -2,7 +2,7 @@
   "name": "roadmap",
   "version": "1.0.0",
   "description": "Roadmap check-list website",
-  "author": "Han Lee (sn0wle0pard)",
+  "author": "Han Lee",
   "license": "MIT",
   "scripts": {
     "preghpage": "npm run build && touch build/.nojekyll",

@@ -41,7 +41,7 @@ export class App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <div className="app">
-        <GithubCorner href="https://github.com/sn0wle0pard/money-counter" />
+        <GithubCorner href="https://github.com/hahnlee/money-counter" />
         <Box>
           <h1>현재 나이는?</h1>
           <AutoInput

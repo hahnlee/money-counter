@@ -6,6 +6,6 @@ ghpages.publish('build', {
     '!**/*.map',
   ],
   branch: 'gh-pages',
-  repo: 'https://github.com/sn0wle0pard/money-counter.git',
+  repo: 'https://github.com/hahnlee/money-counter.git',
   dotfiles: true,
 });
